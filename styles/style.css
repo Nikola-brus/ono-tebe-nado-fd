@@ -1,1 +1,138 @@
 /* место для вашего кода */
+
+body {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+}
+
+.header__menu {
+    line-height: 21.13px;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link {
+    font-size: 18px;
+    border-bottom: 1px solid;
+}
+
+.header__link-active {
+    border-bottom: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: auto;
+}
+
+.adsress {
+    max-width: 240px;
+    justify-self: end;
+}
+
+.header__address {
+    line-height: 24.3px;
+    font-style: normal;
+}
+
+.header__address a {
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 165px 50px 50px;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.6;
+}
+.h1-title {
+
+}
+.cover__title {
+    margin-bottom: 106px;
+}
+.align-text {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+}
+.align-text_center {
+    text-align: center;
+
+}
+.align-text_right {
+    text-align: right;
+}
+.decription {
+}
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cover__description-text {  
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 106%;
+    text-transform: uppercase;
+
+}
+.letter-spacing-extended {
+}
+.bet-button {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: center;
+    padding: 12px 32px;
+    background: unset;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
