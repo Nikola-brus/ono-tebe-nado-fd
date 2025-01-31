@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -25,10 +26,9 @@
         </ul>
       </nav>
       <a class="header__logo">
-        <img
-          class="header__logo-image"
+        <img class="header__logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип ОНО ТЕБЕ НАДО"
+          alt="Логотип ОНО ТЕБЕ НАДО на белом фоне"
         />
       </a>
       <address class="address header__address">
@@ -39,16 +39,17 @@
     </header>
 
     <main class="main">
+
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="h1-title cover__title">
-          <span class="align-text">ОНО</span>
-          <span class="align-text align-text_center">ТЕБЕ</span>
-          <span class="align-text align-text_right">НАДО</span>
+          <span class="align-text letter-spacing-extended">ОНО</span>
+          <span class="align-text align-text_center no-letter-spacing">ТЕБЕ</span>
+          <span class="align-text align-text_right no-letter-spacing">НАДО</span></span>
         </h1>
         <div class="decription cover__description">
-          <p class="cover__description-text letter-spacing-extended">
-            Аукцион вещей, вкоторые никто не верил
+          <p class="cover__description-text">
+            <span>Аукцион вещей,</span> <span>вкоторые никто не верил</span>
           </p>
           <button class="bet-button">Сделать ставку</button>
         </div>
@@ -57,7 +58,6 @@
       <section class="lots">
         <h2 class="h2-title lots__heading">ЛОТЫ</h2>
         <ul class="lots__card-list">
-
           <li class="lots__card-list-item card-link">
             <a href="#0" class="card card_type_film">
               <div class="overlay"></div>
@@ -70,7 +70,6 @@
               </article>
             </a>
           </li>
-
           <li class="lots__card-list-item card-link">
             <a href="#0" class="card card_type_book">
               <div class="overlay"></div>
@@ -82,7 +81,6 @@
               </article>
             </a>
           </li>
-
           <li class="lots__card-list-item card-link">
             <a href="#0" class="card card_type_picture">
               <div class="overlay"></div>
@@ -95,17 +93,14 @@
             </a>
           </li>
         </ul>
-
-        <a class="lots__look-more-link" href="">посмотреть больше</a>
-
+        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
 
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <img class="about__logo-image" src="./images/logo-white.svg" alt="" />
+            <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип ОНО ТЕБЕ НАДО на фоне черного круго" />
           </div>
-
         </div>
         <div>
           <h2 class="h2-title about__title">ОБ АУКЦИОНЕ</h2>
@@ -129,10 +124,11 @@
           </div>
         </div>
       </section>
+
     </main>
 
     <footer class="footer">
-      <address class="address">
+      <address class="address footer__address">
         <a href="tel: +9 999 555 5555">+9 999 555 5555</a> <br />
         <a href="mailto: info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
@@ -170,5 +166,6 @@
         </ul>
       </div>
     </footer>
+
   </body>
 </html>
